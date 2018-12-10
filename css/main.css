@@ -1,0 +1,169 @@
+
+@font-face {
+  font-family: 'AlteHaasGroteskBold';
+  src: url('../fonts/AlteHaasGroteskBold.ttf');
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Lucida Grande', Verdana, sans-serif;
+  text-align: center;
+  background: url('../images/background.png') repeat-x #99d0ed;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  max-width: 650px;
+  padding: 10px 65px 0;
+  margin: 30px auto 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'AlteHaasGroteskBold';
+  font-size: 3em;
+}
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 40px;
+  font-family: 'AlteHaasGroteskBold';
+  font-size: 1.2em;
+  color: #168b70;
+}
+
+button {
+  padding: 8px 18px 7px 16px;
+  margin-bottom: 40px;
+  font-family: 'Lucida Grande', Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: .03em;
+  color: #fff;
+  background-color: #e02a86;
+  border: 4px solid #e02a86;
+  border-top: 0 solid #e02a86;
+  border-radius: 5px;
+}
+
+.shortcut {
+  padding: 5px 15px;
+  border: 1px solid #999;
+  border-radius: 20px;
+}
+
+.command {
+  margin-bottom: 20px;
+  font-size: 1.3em;
+}
+
+input {
+  width: 160px;
+  padding: 5px;
+  margin-bottom: 25px;
+  font-size: 1.3em;
+  color: #aaa;
+}
+
+.legend {
+  width: 70%;
+  padding: 0 5px;
+  margin: 30px auto;
+  font-size: .75em;
+  color: #2a5e52;
+  background-color: #c0f1e6;
+  border: 1px solid #ade9db;
+  border-radius: 5px;
+}
+
+.legend li {
+  display: inline-block;
+  padding: 13px 10px;
+}
+
+.copyright {
+  font-size: .8em;
+  color: #4f9fc5;
+}
+
+.year {
+  letter-spacing: -.05em;
+}
+
+.copyright a {
+  color: #4f9fc5;
+}
+
+.copyright a:hover {
+  color: #3689af;
+}
+
+.linkedin {
+  margin-bottom: -3px;
+  margin-left: 8px;
+}
+
+/* based on http://www.lugolabs.com/articles/72-style-select-html-element-with-css */
+
+.select {
+  font-size: 10px;
+  position: relative;
+  display: inline-block;
+  margin-right: 7px;
+  margin-bottom: 20px;
+}
+
+.select select {
+  outline: none;
+  -webkit-appearance: none;
+  display: block;
+  padding: .6em 2.6em .65em .7em;
+  margin: 0;
+  transition: border-color 0.2s;
+  border: 2px solid #e02a86;
+  border-radius: 5px;
+  background: #fff;
+  color: #555;
+  line-height: normal;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: inherit;
+}
+
+.select .arrow {
+  background: #fff;
+  bottom: 5px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 20px;
+  pointer-events: none;
+}
+
+.select .arrow:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  margin-top: -5px;
+  pointer-events: none;
+  border-top: 10px solid #a82567;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.select .arrow:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  margin-top: -5px;
+  pointer-events: none;
+  border-top: 6px solid #fff;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+}
